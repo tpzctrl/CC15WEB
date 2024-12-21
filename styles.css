@@ -1,0 +1,407 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #0D6EFD; /* Blue */
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    color: #FFDA4D; /* Yellow */
+}
+
+/* Greeting Section */
+.greeting-section {
+    text-align: center;
+    padding: 100px 20px 50px;
+    background-color: #fff; 
+    color: #0D6EFD; /* Blue text */
+}
+
+.greeting-section h1 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.greeting-section p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+}
+
+/* About Section */
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 60px;
+    height: 60vh;
+    background-color: #f5f5f5;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 500px; /* Limit card width */
+    width: 100%;
+}
+
+.profile-img {
+    width: 150px; /* Set the image size */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Space between image and name */
+}
+
+.name-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #0D6EFD;
+}
+
+.role {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+.role {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.profile-img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 2px solid black
+}
+
+/* Description Section */
+.description {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.description h2 {
+    font-size: 2rem;
+    color: #0D6EFD;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* More Info (Facts) Section */
+.more-info {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.more-info h2 {
+    font-size: 2rem;
+    color: #0D6EFD;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.info-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.info-card h3 {
+    font-size: 1.5rem;
+    color: #0D6EFD;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Skills Section */
+.skills-container {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-container h2 {
+    font-size: 2.8rem;
+    color: #0D6EFD; /* Blue color */
+    margin-bottom: 10px;
+}
+
+.skills-container .section-description {
+    font-size: 1.2rem;
+    color: #555; /* Gray color */
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.skill-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    font-size: 1.6rem;
+    color: #0D6EFD;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* Achievements Section */
+.achievements-container {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.achievements-container h2 {
+    font-size: 2.8rem;
+    color: #0D6EFD; /* Blue color */
+    margin-bottom: 10px;
+}
+
+.achievements-container .section-description {
+    font-size: 1.2rem;
+    color: #555; /* Gray color */
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.achievements-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.achievement-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.achievement h3 {
+    font-size: 1.6rem;
+    color: #0D6EFD;
+    margin-bottom: 10px;
+}
+
+.achievement p {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* Socials Section */
+.socials {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.socials h2 {
+    font-size: 2rem;
+    color: #0D6EFD;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.socials-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    background-color: #0D6EFD;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #0D6EFD;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0D6EFD;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .skills-container, .achievements-container, .info-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-card {
+        text-align: center;
+    }
+
+    .name-container h1 {
+        font-size: 2rem;
+    }
+
+    .role {
+        font-size: 1rem;
+    }
+
+    .profile-img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-card {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .about-card {
+        padding: 15px;
+    }
+
+    .about-card img {
+        max-width: 120px;
+        margin-bottom: 15px;
+    }
+
+    .about-section {
+        padding: 20px;
+    }
+}
